@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>что-то там</title>
+    <link rel="stylesheet" href="/css/spec.css">
+    <title>примеры ТЗ №7</title>
 </head>
+
 <body>
-    <h1>Я успешно скопировал другой репозиторий</h1>
+    <div id="parent1" class="parent1">
+        <div class="parent2">
+            <p class="child1" id="child1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum dicta ipsa
+                optio hic pariatur rem esse quam quo saepe! Obcaecati ullam accusamus officia beatae numquam iusto
+                incidunt nostrum facilis.</p>
+        </div>
+    </div>
+`
+    <div id="pagewrapper">
+        <h1>Заголовок</h1>
+        <div class="content">
+            <p>Приоритет на самом элементе</p>
+        </div>
+        <div class="secondary">
+            <p>параграф</p>
+        </div>
+    </div>
+
+    <div id="pagewrapper1">
+        <div>
+            <p class="content1">Выше специфичность</p>
+        </div>
+        <div class="secondary1">
+            <p>текст</p>
+        </div>
+    </div>
+    <div id="pagew">
+        <div class="tent cont" >
+            <p>Два класса</p>
+        </div>
+
+        <div class= "secondary5">
+            <p class="sec">c классом</p>
+            <p>обычный</p>
+        </div>
+    </div>
 </body>
+
 </html>

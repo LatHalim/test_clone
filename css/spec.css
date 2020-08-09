@@ -1,0 +1,62 @@
+#parent1 #child1 {
+    color: aqua;
+    padding-bottom: 50px;
+    background: rgb(217, 255, 0);
+}
+
+.parent2 {
+    font-size: 50px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+}
+
+p {
+    border: inherit;
+}
+
+#child1 {
+    color: lawngreen;
+}
+
+.content {
+    font-size: 15px;
+    color: magenta;
+}
+.content {
+    color:yellow;
+
+}
+
+#pagewrapper {
+    font-size: 30px;
+}
+
+#pagewrapper>.content {
+    color: lightsalmon;
+}
+
+#pagewrapper .content {
+    color: lightseagreen;
+}
+
+#pagewrapper1 .content1 {
+    color: lightslategray;
+}
+
+.content1 {
+    color: lime;
+}
+
+.cont {
+    color: navajowhite;
+}
+
+.tent {
+    color: olive;
+}
+.secondary5 {
+    color:yellow;
+}
+.sec {
+    color: orange;
+}
