@@ -22,8 +22,9 @@ p {
     font-size: 15px;
     color: magenta;
 }
+
 .content {
-    color:yellow;
+    color: yellow;
 
 }
 
@@ -54,9 +55,130 @@ p {
 .tent {
     color: olive;
 }
+
 .secondary5 {
-    color:yellow;
+    color: yellow;
 }
+
 .sec {
     color: orange;
+}
+
+.movie-list__header {
+    color: #252525;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 4.5rem;
+}
+
+
+.movie-list__table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-top: 4.35rem;
+}
+.movie-list__head th {
+    color: #ffffff;
+    background: #a3cc40;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 3.75rem;
+}
+
+.movie-list__tr2 {
+    color: #ffffff;
+    background: #373737;
+    font-size: 1.1rem;
+    font-weight: 400;
+    height: 3.75rem;
+}
+
+.movie-list__tr3 {
+    color: #ffffff;
+    background: #4b4d4f;
+    font-size: 1.1rem;
+    font-weight: 400;
+    height: 3.75rem;
+}
+
+.movie-list__th0 {
+    color: #ffffff;
+    background: #a3cc40;
+    font-size: 1.5rem;
+    font-weight: 900;
+    height: 3.75rem;
+    padding-left: 3.25rem;
+    text-align: left;
+}
+
+.movie-list__th1 {
+    color: #ffffff;
+    background: #373737;
+    font-size: 1.1rem;
+    font-weight: 400;
+    height: 3.75rem;
+    padding-left: 3.25rem;
+    text-align: left;
+}
+
+.movie-list__th2 {
+    color: #ffffff;
+    background: #4b4d4f;
+    font-size: 1.1rem;
+    font-weight: 400;
+    height: 3.75rem;
+    padding-left: 3.25rem;
+    text-align: left;
+}
+
+.movie-list__th3_1 {
+    color: #ffffff;
+    background: #373737;
+    font-size: 1.1rem;
+    font-weight: 400;
+    height: 3.75rem;
+    padding-right: 1.75rem;
+}
+
+.movie-list__th3_2 {
+    color: #ffffff;
+    background: #4b4d4f;
+    font-size: 1.1rem;
+    font-weight: 400;
+    height: 3.75rem;
+    padding-right: 1.75rem;
+}
+
+
+.th0_1,
+.th0_2 {
+    padding: 1rem 2rem;
+    position: relative;
+    color: #fff;
+}
+
+th {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.th0_1::after,
+.th0_2::after {
+    content: '';
+    position: absolute;
+    border: 0.5rem solid transparent;
+    margin-left: 0.5rem;
+}
+
+.th0_1::after {
+    border-bottom: 1rem solid white;
+}
+
+.th0_2::after {
+    border-top: 1rem solid white;
+    margin-top: 0.6rem;
 }
