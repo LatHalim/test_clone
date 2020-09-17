@@ -549,10 +549,10 @@ for (let i = 0; i < document.getElementsByTagName('article').length; i++) {
     document.getElementsByTagName('article')[i].onclick = function (event) {
         event.preventDefault;
         document.getElementsByTagName('article')[i].classList.remove('hide');
-        if(last !== document.getElementsByTagName('article')[i].getElementsByTagName('div')[0].classList.value){
-            setTimeout(function() {
+        if (last !== document.getElementsByTagName('article')[i].getElementsByTagName('div')[0].classList.value) {
+            setTimeout(function () {
                 document.getElementsByTagName('article')[i].classList.add('hide');
-            },1000)
+            }, 1000)
         }
         last = document.getElementsByTagName('article')[i].getElementsByTagName('div')[0].classList.value;
     }
