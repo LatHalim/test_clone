@@ -14,7 +14,6 @@ for (var i = 0; i < arr2.length; i++) {
 
 function doScaledTimeout(i) {
   setTimeout(function () {
-    (i);
     console.log('Index: ' + i + ', element: ' + arr2[i]);
   }, 3000);
 }

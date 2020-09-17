@@ -222,8 +222,8 @@ const film = {
 
 //тестирование объекта-обертки (шаг 4), расомментируйте для проверки
 //для проброса контекста используем apply
-/**
-console.log('В прокате:');
+
+/* console.log('В прокате:');
 for( let i=0; i<filmsHire.length; i++ ) {
     let currentFilm = filmsHire[i];
 
@@ -237,20 +237,20 @@ for( let i=0; i<filmsNew.length; i++ ) {
 
     console.log( film.getName.apply(currentFilm) );
     console.log( film.getGanre.apply(currentFilm) );
-}
-**/
+} */
+
 
 //протестируем метод рендеринга одной строки (шаг 7), раскомментируйте для проверки
 //для проброса контекста используем bind, в отличие от apply метод не выполняется сразу
 //требуется добавить скобки вызова функции на конце
 
-/**
-console.log("Отрендеренные строки с фильмом:");
+
+/* console.log("Отрендеренные строки с фильмом:");
 for (let i = 0; i < filmsHire.length; i++) {
     let currentFilm = filmsHire[i];
     console.log( film.renderFilmRow.bind(currentFilm)() );
-}
-*/
+} */
+
 
 //добавить фильмы в таблицу (шаг 9)
 //в теге table таблицы с фильмами не забудьте прописать id="filmsHire" и удалить все строки, кроме заголовка
@@ -285,8 +285,8 @@ for (let i = 0; i < filmsNew.length; i++) {
 //в этом случае мы не создаем контейнеры программно. А просто записываем HTML разметку
 //в свойство flex контейнера. Предварительно собирая ее в цикле
 
-/**
-let mosaicDOM = document.getElementById("filmsNew"), // это flex контейнер, куда добавляются блоки
+
+/* let mosaicDOM = document.getElementById("filmsNew"), // это flex контейнер, куда добавляются блоки
     fullHTML = ''; //это полная строка HTML разметки со всеми фильмами, формируем в цикле
 for (let i = 0; i < filmsNew.length; i++) {
     let currentFilm = filmsNew[i],
@@ -294,4 +294,4 @@ for (let i = 0; i < filmsNew.length; i++) {
     fullHTML += '<div class="">'+filmBlockHTML+'</div>';
 }
 mosaicDOM.innerHTML = fullHTML;
-*/
+ */
