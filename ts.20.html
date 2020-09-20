@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,27 @@
     <link rel="stylesheet" href="css/simpson.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="container">
-    <main class="grid" id="grid">
-    </main>
-</div>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script type="text/babel" src="js/ts.20.js"></script>
+    <div class="container">
+        <div id="pre-window" style="text-align:center;">
+            <h2>Это игра про симпсонов</h2>
+            <p>Найди все пары, открой все карточки</p>
+            <div>
+                <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div>
+                <label for="count">Количество карточек</label>
+            <input type="number" id="count" placeholder="Введите желаемое количество карточек">
+            </div>
+            <button id="start_game">Начать игру</button>
+        </div>
+        <main class="grid" style="display: none;" id="grid">
+        </main>
+    </div>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="js/ts.20.js"></script>
 </body>
+
 </html>
